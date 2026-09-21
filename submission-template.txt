@@ -1,0 +1,4 @@
+Name: Ibrahim Mackey
+Live URL: https://codd.cs.gsu.edu/~<your_gsu_login>/web/hw1/index.html
+GitHub: https://github.com/imackey1/<your_repo_name>
+Notes: All requirements completed and validated at validator.w3.org and jigsaw.w3.org.

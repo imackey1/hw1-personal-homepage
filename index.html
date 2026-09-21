@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal homepage for Ibrahim Mackey, a Computer Science student at Georgia State University, featuring his background, coursework, hobbies, and contact information.">
+  <title>Ibrahim Mackey - Personal Homepage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="bg-circles left" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+  <div class="bg-circles right" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <header>
+    <div class="container">
+      <span class="site-name">Ibrahim Mackey</span>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#coursework">Coursework</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="dice-roll" aria-label="Random section roller">
+      <div class="container dice-roll-inner">
+        <button type="button" class="die" id="dieButton" aria-label="Roll the dice to jump to a random section of this page">
+          <span class="die-face" id="dieFace" aria-hidden="true">?</span>
+        </button>
+        <p class="dice-caption">The dice tell the story&hellip;</p>
+        <p class="dice-status" id="diceStatus" aria-live="polite"></p>
+        <noscript>
+          <p class="dice-noscript">(The dice roller needs JavaScript to work &mdash; use the navigation menu above instead.)</p>
+        </noscript>
+      </div>
+    </section>
+
+    <section id="profile">
+      <div class="container">
+        <div class="profile-layout">
+          <img src="images/profile-photo.png" alt="Portrait photo of Ibrahim Mackey">
+          <div>
+            <h1>Ibrahim Mackey</h1>
+            <p class="role">Computer Science Student, Georgia State University</p>
+            <p>
+              I'm a fourth-year Computer Science student who enjoys building personal software
+              projects, from Discord bots to mobile apps. This page is my personal homepage for
+              CSC coursework at GSU.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I'm a fourth-year Computer Science student at Georgia State University. Most of my
+          technical experience so far comes from personal projects, with the occasional class
+          project as well. Usually when making personal projects, I take from recent experiences
+          I've had and think about how I can improve on them with software or something fun.
+        </p>
+        <p>
+          Outside of school, I work as a bartender, which helps with my communication skills in
+          a group environment. It's a nice change of pace from sitting behind a computer monitor
+          reviewing and testing code. My goal after graduating is to find a junior software
+          developer role where I can keep building things I actually care about.
+        </p>
+      </div>
+    </section>
+
+    <section id="coursework">
+      <div class="container">
+        <h2>Coursework &amp; Assignments</h2>
+        <p>This section will collect projects and assignments from my Computer Science coursework as the semester goes on.</p>
+        <div class="card-grid">
+          <article class="card">
+            <h3>HW1: Personal Homepage</h3>
+            <p>This page &mdash; a single-page HTML/CSS homepage built from scratch for this assignment.</p>
+            <span class="status">Complete</span>
+          </article>
+          <article class="card">
+            <h3>Upcoming Assignment</h3>
+            <p>Details will be added here once assigned.</p>
+            <span class="status">Coming Soon</span>
+          </article>
+          <article class="card">
+            <h3>Upcoming Assignment</h3>
+            <p>Details will be added here once assigned.</p>
+            <span class="status">Coming Soon</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="hobbies">
+      <div class="container">
+        <h2>Hobbies &amp; Interests</h2>
+        <ul>
+          <li>Tabletop RPGs, especially Dungeons &amp; Dragons</li>
+          <li>Reading novels, light novels, and manga</li>
+          <li>Writing fiction</li>
+          <li>Playing board games (Root and Vantage)</li>
+          <li>Mixology and hospitality</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Feel free to connect with me here:</p>
+        <div class="contact-links">
+          <a class="btn-link" href="https://github.com/imackey1" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a class="btn-link" href="https://www.linkedin.com/in/ibrahim-mackey-8574842a3/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Ibrahim Mackey &mdash; Georgia State University, Computer Science</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
